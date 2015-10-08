@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2015, 2:13:08 PM
+    Author     : malengo
+*/
+table {
+    width: 100%;
+    height: 400px;
+    
+     
+}
+td{
+    width: 200px;
+    height: 98px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+a{
+ text-align: center;  
+ color:white;
+ font-weight: bold; 
+  text-decoration: none;
+}
+div{
+  
+    background-color: #110533;
+     box-shadow: 1px 10px 5px #17044C;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    
+}

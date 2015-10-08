@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2015, 6:46:51 PM
+    Author     : malengo
+*/
+
+ nav{
+
+font-family: Courier New;
+
+
+ 
+}
+nav ul {
+  	padding:10px;
+	margin:50px;
+	background-color:#EDEDED;
+	list-style:none;
+    
+}
+nav ul li {
+ 
+display: inline;
+}
+ 
+    nav ul li a {
+           
+        display: inline-block;
+        margin-right: 50px;
+        width: 140px;
+        font-size: 24px;
+        line-height: 44px;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        border-bottom:3px solid black;
+    }
+ 
+        nav ul li a:hover {
+        background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+        }
+ 
