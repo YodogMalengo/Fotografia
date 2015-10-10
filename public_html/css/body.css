@@ -7,3 +7,15 @@ and open the template in the editor.
     Created on : Oct 5, 2015, 12:06:36 AM
     Author     : malengo
 */
+
+
+article{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    background-color: #110533;
+    box-shadow: 1px 10px 5px #17044C;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    border-radius: 10px;
+}
