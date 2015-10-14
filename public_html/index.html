@@ -9,12 +9,14 @@ and open the template in the editor.
         <title>Juliana Frugeri Fotografia </title>
         <meta charset="UTF-8">
      <link rel="stylesheet" href="css/head.css" type="text/css">
-        <link rel="stylesheet" href="css/navi.css" type="text/css">
-        <link rel="stylesheet" href="css/body.css" type="text/css">
+      <!--  <link rel="stylesheet" href="css/navi.css" type="text/css">-->
+        <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+       <!-- <link rel="stylesheet" href="css/body.css" type="text/css">-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <script type="text/javascript" src="js/libs/jquery/jquery-2.1.4.js"></script>
-                <script src="js/libs/jquery/links.js"></script>
-                <script type="text/javascript" src="js/LoadHeader.js"></script>
+        <script type="text/javascript" src="js/libs/jquery/jquery-2.1.4.js"></script>
+        <script src="js/libs/jquery/links.js"></script>
+        <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/LoadHeader.js"></script>
         <script type="text/javascript" src="js/libs/jquery/menu.js"></script>
 
 
@@ -25,26 +27,29 @@ and open the template in the editor.
               
                 <table >
                      <tr>
-                         <td id="1A"><div><a href="#" id="p1A"></a></div></td>
-                        <td colspan="4" id="2A" ><div><a href="#" id="p2A"></a></div></td>
-                        <td  colspan="2" id="3A"><div><a href="#" id="p3A"></a></div></td>
+                         <td id="1A"><div class="cima"><a href="#" id="p1A" class="cab"></a></div></td>
+                        <td colspan="4" id="2A" ><div class="cima"><a href="#" id="p2A" class="cab"></a></div></td>
+                        <td  colspan="2" id="3A"><div class="cima"><a href="#" id="p3A"></a></div></td>
                     </tr>
                         <tr>
-                            <td colspan="2" id="4A"><div><a href="#" id="p4A"></a></div></td>
-                            <td colspan="2" id="5A" ><div><a href="#" id="p5A"></a></div></td>
-                            <td id="6A" ><div><a href="#" id="p6A"></a></div></td>
-                            <td id="7A" ><div><a href="#" id="p7A"></a></div></td>
+                            <td colspan="2" id="4A"><div class="cima"><a href="#" id="p4A" class="cab"></a></div></td>
+                            <td colspan="2" id="5A" ><div class="cima"><a href="#" id="p5A" class="cab"></a></div></td>
+                            <td id="6A" ><div class="cima"><a href="#" id="p6A" class="cab"></a></div></td>
+                            <td id="7A" ><div class="cima"><a href="#" id="p7A" class="cab"></a></div></td>
                         </tr>
                    
                 </table>
-      <nav>
-                    <ul id='master' >
-                        <li><a href="#" id='top'>Início</a></li>
+              
+                <nav class="navbar">
+                    <div class="container-fluid">
+          <ul id='master' class="nav nav-pills" >
+              <li><a href="#" id='top' class="active">Início</a></li>
                         <li><a href="#" id='about'>Sobre Nós</a></li>
                         <li><a href="#" id='work'>Trabalhos</a></li>
                         <li><a href="#" id='contact'>Contato</a></li>
  
                 </ul>
+                    </div>
                 </nav>
 
             </header>
@@ -61,7 +66,7 @@ Deus é fiel ee nos salva
 
             </article>
             <article class="work">
-                Clique nas Imagens acima e vejam nos mais recente trabalhos, Trabalhamos com fotos para Casamento, Aniversários, Debutantes, Festas, 
+                Clique nas Imagens acima e vejam nossos mais recente trabalhos, Trabalhamos com fotos para Casamento, Aniversários, Debutantes, Festas, 
                 nascimentos e entre outros trabalhos.
             </article>
             <article class="contact">
